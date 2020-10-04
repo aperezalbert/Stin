@@ -1,8 +1,10 @@
 {
   "name": "stin",
   "version": "1.0.0",
-  "description": "Proyecto II",
+  "description": "��#\u0000 \u0000S\u0000t\u0000i\u0000n\u0000\r\u0000 \u0000",
   "main": "admin.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/aperezalbert/Stin.git"
   },
-  "author": "Adriana Perez Albert",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aperezalbert/Stin/issues"
   },
-  "homepage": "https://github.com/aperezalbert/Stin#readme",
-  "dependencies": {
-    "boostrap": "^2.0.0"
-  }
+  "homepage": "https://github.com/aperezalbert/Stin#readme"
 }

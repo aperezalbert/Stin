@@ -287,7 +287,30 @@
       "imgSource": "/img/A8.jpg",
       "publicado": "TRUE",
       "destacado": "no"
+    },
+    {
+      "name": "FALSETFT",
+      "style": "FALSE",
+      "category": "ACCION",
+      "publicado": "FALSE",
+      "destacado": "no",
+      "id": 33
+    },
+    {
+      "name": "GTA",
+      "style": "multi",
+      "category": "ACCION",
+      "publicado": "TRUE",
+      "destacado": "no",
+      "id": 34
+    },
+    {
+      "name": "qqqqq",
+      "style": "multi",
+      "category": "TERROR",
+      "publicado": "FALSE",
+      "destacado": "no",
+      "id": 35
     }
-    
   ]
 }
