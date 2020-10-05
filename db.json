@@ -287,38 +287,7 @@
       "imgSource": "/img/A8.jpg",
       "publicado": true,
       "destacado": "no"
-    },
-    {
-      "name": "GTA",
-      "style": "multi",
-      "category": "ACCION",
-      "publicado": true,
-      "destacado": "no",
-      "id": 33
-    },
-    {
-      "name": "FALSETFT",
-      "style": "single",
-      "category": "TERROR",
-      "publicado": false,
-      "destacado": "no",
-      "id": 34
-    },
-    {
-      "name": "qqqqq",
-      "style": "multi",
-      "category": "infantil",
-      "publicado": false,
-      "destacado": "no",
-      "id": 35
-    },
-    {
-      "name": "qqqqq",
-      "style": "single",
-      "category": "infantil",
-      "publicado": true,
-      "destacado": "no",
-      "id": 36
     }
+    
   ]
 }
