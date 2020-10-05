@@ -59,50 +59,43 @@
             <form action="" id="form">
             <div class="form-group ">
                 
-                
-                
                 <label for="name" class="mt-4">Nombre</label><br>
                 <input type="text" id="name" placeholder="Nombre" class="border p-1 rounded" required><br>
-            
-            
-                 
-                <label for="styleJuegos" class="mt-4">Estilo</label>
-                <select name="stylejuegos" id="style" class="border p-1 rounded" value="" required>
-                    <option value="single">Single</option>
-                    <option value="multi">Multi</option>
-                   
-                </select><br>
-
+                   <p>Seleccione un estilo:</p>
+                <input type="radio"  name="style" value="single"> single <br>
+                <input type="radio"  name="style" value="multi"> multi <br>
                 <label for="categoJuegos" class="mt-4">Categoria</label><br>
-                <input type="text" id="category" placeholder="Categoria" class="border p-1 rounded" required><br>
-           
-                <label for="publijuegos" class="mt-4">Publicado</label>
-                    <select name="publijuegos" id="published" class="border p-1 rounded" value="" required>
-                        <option value="TRUE">Verdadero</option>
-                        <option value="FALSE">Falso</option>
-                       
-                    </select><br>
-                   
-
+                <input type="text" id="category" placeholder="Categoria" class="border p-1 rounded" required><br>    
+                <p>Publicar:</p>
+                <input type="radio"  name="published" value="true"> Si<br>
+                <input type="radio" name="published" value="false"> No <br>
                 
-                <div class="d-flex justify-content-center">
-                <button type="submit" class="btn mt-4 text-light" id="submit">Agregar</button>
+             <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn mt-4 text-light" id="submit">Agregar</button>
+                    </div>   
                 </div>
-                
-                
+            </form>
                 
             </div>
-        </form>
-            
-        </div>
-    </div>
+        </div>        
+        <script src="admin.js"></script>
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+    </html>             
+                
+           
+                
+
+                
+                
+                
+                
+                
+           
     
     
                         
-    <script src="admin.js"></script>
     
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
-</html>
