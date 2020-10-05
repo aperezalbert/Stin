@@ -5,12 +5,12 @@
     form.addEventListener('submit', e => {
       e.preventDefault();
       const namegame = document.getElementById('name').value;
-      const stylegame = document.getElementById('style').value;
+      const stylegame = document.querySelector('input[name="style"]:checked').value;
       const categorygame = document.getElementById('category').value;
-      const publishedgame = document.getElementById('published').value;
-      
+      const publishedgame= document.querySelector('input[name="published"]:checked').value =='true'
       const data = { name: namegame, style: stylegame, category: categorygame,publicado:publishedgame,destacado:'no'};
       postNewTodo(data);
+      
     })
 
    
@@ -60,14 +60,16 @@
       })
     }
     
-      async function postNewTodo({ name,style,category,publicado,destacado}) {
-      const url = 'http://localhost:3000/Games';
-      const response = await fetch(url, {
+      
+       async function postNewTodo({ name,style,category,publicado,destacado}) {
+       const url = 'http://localhost:3000/Games';
+       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
         },
+       
         body: JSON.stringify({ name,style,category,publicado,destacado})
       })
       const newData = await response.json();
